@@ -4,7 +4,7 @@ require("dotenv").config();
 
 const {
   NODE_ENV = "production",
-  DATABASE_URL",
+  DATABASE_URL,
 } = process.env;
 
 module.exports = {
